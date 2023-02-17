@@ -33,7 +33,7 @@ class Calculator {
         return;
     }
 
-    if(this.secondOperand.toString().length < 22){
+    if(this.secondOperand.toString().length < 9){
       this.secondOperand = this.secondOperand.toString() + number.toString();
     }
     this.printResult();
