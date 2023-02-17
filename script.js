@@ -65,7 +65,7 @@ class Calculator {
         break;
       case '/':
         if (this.secondOperand == 0) {
-          alert('Arithmetic Error: Cannot divide by 0');
+          alert('Nope, cannot divide by 0');
           disableButtons();
           clearButton.disabled = false;
           result = '';
